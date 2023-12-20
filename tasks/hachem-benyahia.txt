@@ -1,0 +1,58 @@
+// I will use day/month/year format even though I know it's not standard in English but in this file I will use it for
+// my personal comfort and readability.
+
+
+
+17/12/2023
+
+Dependencies:
+
+- Added Boostrap to the application, following this
+https://stackoverflow.com/questions/43557321/angular-4-how-to-include-bootstrap
+Also added boostrap.min.js in the dependencies.
+
+Branches:
+
+- Deleted branch "test" and created branch "develop".
+
+Git:
+
+- Initialized Git Flow (with "master" and "develop" as the default branches).
+
+Components:
+
+- Renamed the App*/app* Component to follow the file naming that I use typically and edited the different
+files that require them to make it work.
+
+- Wrote some template in src/app/app.html to test Bootstrap and added some CSS, mostly the point was a navbar, and a footer,
+that's the purpose of this main app.html file.
+
+// I think that was it. We are on the 20/12/2023, I am writing this using my memory. Git "commits" are not really informative, I think
+// this file, this concept, /tasks/contributor_name.txt following this format is more informative. Does Github read Markdown for every *.md
+// file or just README.md ? In which case it would better to use Markdown for this file too, so .md instead of .txt. I will see another
+// time.
+
+// I think (I just made it up so it could change) but basically it would be:
+// Category (Services, Components, Dependencies, Pipes, Routes, etc.). Then two line breaks and then dash (-) space and the task that was
+done with maybe a little explanation.
+
+
+
+20/12/2023
+
+Dependencies:
+
+- Added jQuery, as apparently Bootstrap can sometimes need it (for Alerts for example) following this
+https://stackoverflow.com/questions/56941924/how-can-i-use-jquery-in-an-angular-8-app and configured it to work, especially without
+the "declare var $: any;" that they often use.
+
+
+Addons:
+
+- Created tasks folder and tasks/hachem-benyahia.txt (this file).
+
+
+// For the commit I will just say to go read this file. The next step would be to create the AuthModule I think, which would contain
+// LoginComponent, LogoutComponent, etc. I will see how it should be architectured. And there is the HomeModule, with HomeComponent I
+// suppose? We will see. The point is to quickly to and client to server (end to end in my language) connection with a Bearer token
+// through a form in LoginComponent, basically to implement full OAuth2 between the App and the API.
