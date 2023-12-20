@@ -1,5 +1,18 @@
 # PizzeriaExampleFrontend
 
+
+
+## Interface
+
+### Main Interface / homepage
+
+Just trying to setup the homepage and Bootstrap for the moment, so nothing very impressive to look at:
+
+![beginning.png](screenshots/beginning.png)
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.1.
 
 ## Development server
